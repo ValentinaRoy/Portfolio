@@ -124,7 +124,7 @@
     font-size: 50px;
     font-weight: bolder;
     padding: 10px;
-    background: #a9a7a3;
+    background: #dfb429;
 
 }
 #services>table{
@@ -190,4 +190,14 @@ table{
     margin-top:100px;
     font-family: 'Major Mono Display', monospace;
     padding: 20px;
+}
+.foot{
+    background: rgb(244, 199, 1);
+    font-family: 'Major Mono Display', monospace;
+
+   height: 45px;
+    width: 100%;
+}
+.dn{
+    color:white;
 }
