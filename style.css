@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rozha+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Red+Hat+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Titillium+Web&display=swap');
+
+
+.topnav{
+    background: rgb(244, 199, 1);
+    font-family: 'Major Mono Display', monospace;
+
+   height: 45px;
+    width: 100%;
+    
+
+}
+.topnav a {
+  
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+  }
+
+  .topnav a:hover {
+    background-color: rgba(221, 221, 221, 0.651);
+    color: rgba(0, 0, 0, 0.638);
+  }
+  .topnav a.active {
+    background-color: #797979;
+    color: white;
+  }
+.intro{
+    
+  
+    height: 690px;
+    background-image: url("https://i.pinimg.com/originals/2d/10/ea/2d10eaee556b7999bc93f5d4c9c6bcfc.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 690px;
+  
+}
+.intro>.quote{
+    text-align: center;
+    font-size: 100px;
+    padding-top: 250px;
+    color: white;
+    font-family: 'Great Vibes', cursive;
+    text-shadow: 1px 0 6px rgba(128, 128, 128, 0.681);
+
+}
+.more{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content:center ;
+    
+}
+.more>button{
+    border: none;
+    width: 150px;
+    height: 60px;
+    background: rgb(244, 199, 1);
+    color: white;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: 'Major Mono Display', monospace;
+    font-weight: bolder;
+    
+
+
+}
+.links:visited{
+    color: white;
+}
+.more>button:hover{
+    background: rgba(218, 179, 3, 0.759);
+    box-shadow: 1px 1px 6px rgba(128, 128, 128, 0.823);
+}
+#aboutme{
+    background: #b7b4afa7;
+    height: 400px;
+    text-align: center;
+    background-image: url("https://images.unsplash.com/photo-1585435465945-bef5a93f8849?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGxhbm5lcnxlbnwwfHwwfHw%3D&w=1000&q=80");    
+    background-repeat: no-repeat;
+    background-position: right 2% bottom 13%;;
+    background-size: 360px 300px ;
+    
+}
+#aboutme>.headings{
+    font-family: 'Major Mono Display', monospace;
+    color: white;
+    font-size: 50px;
+    background: #a9a7a3bf;
+    font-weight: bolder;
+    padding: 10px;
+
+}
+#aboutme>.me{
+    color: white;
+    text-align: left;
+    padding: 10px 0 0 20px;
+    font-size: 27px ;
+    text-overflow: clip;
+    width: 650px;
+    font-family: 'Titillium Web', sans-serif;
+    position: left;
+}
+#services{
+    
+    height: 600px;
+    text-align: center;
+    background-image: url("https://i.pinimg.com/originals/2d/10/ea/2d10eaee556b7999bc93f5d4c9c6bcfc.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 700px;
+    
+    
+}
+#services>.headings{
+    font-family: 'Major Mono Display', monospace;
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: bolder;
+    padding: 10px;
+    background: #a9a7a3;
+
+}
+#services>table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    font-size: 50px;
+   
+    text-align: center;
+}
+
+  .resume{
+    text-decoration: none;
+  }
+  .resume>button{
+    border: none;
+    margin: 20px;
+    width: 300px;
+    height: 30px;
+    background: rgb(244, 199, 1);
+    color: white;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: 'Major Mono Display', monospace;
+    font-weight: bolder;
+  }
+.download:visited{
+    color: white;
+    
+}
+.resume>button:hover{
+    background: rgba(218, 179, 3, 0.759);
+    box-shadow: 1px 1px 6px rgba(128, 128, 128, 0.823);
+}
+#contactme{
+    background: #b7b4afa7;
+    height: 500px;
+}
+.h1{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    padding-top: 90px;
+
+}
+.h2{
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    font-family: 'Major Mono Display', monospace;
+    font-weight: bold;
+}
+.contact{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+table{
+    color:white;
+    text-align: center;
+    margin-top:100px;
+    font-family: 'Major Mono Display', monospace;
+    padding: 20px;
+}
